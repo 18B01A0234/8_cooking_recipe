@@ -1,3 +1,4 @@
+<form>
 <link rel = "stylesheet" href=cookpad.css> 
 <h1><br><br>
 <center>COOK PAD</center><br><br><br>
@@ -13,12 +14,15 @@
     <input type="password" placeholder="enter password" name="psw" required><br><br>
     </center>
 <center>
-<label><b>Confirm Password</b></label>
-<input type = "password" placeholder = "confirm password" name = "confirm password"><br>
+<label for="cp"><b>Confirm Password</b></label>
+<input type = "password" placeholder = "confirm password" name = "cp" required><br>
 </center>
 <center>  
   <label>
-<button type = "submit">signup</button>
+<div class="clearfix">
+<button type = "submit" class = "signupbtn"><a href = "file:///home/user/html/logout.html">signup</a></button>
       <input type="checkbox" checked="checked" name="remember"> Remember me   
+</div>
 </label>
-</center>  
+</center>
+</form>  
