@@ -5,21 +5,21 @@
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image:url("cookimage");
-  background-size:1200px 900px;
 }
 
 .navbar {
   overflow: hidden;
+  background-color:#800000;
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-  color: black;
+  color: white;
   text-align: center;
   padding: 28px 32px;
   text-decoration: none;
+  font-size:25px;
 }
 
 .dropdown {
@@ -31,10 +31,11 @@ body {
   font-size: 16px;  
   border: none;
   outline: none;
-  color: black;
-  padding: 14px 16px;
+  color: white;
+  padding: 28px 32px;
   background-color: inherit;
   font-family: inherit;
+  font-size:25px
   margin: 0;
 }
 
@@ -72,9 +73,9 @@ body {
 <body>
 
 <div class="navbar">
-  <a href="file:///home/user/html/homepage.html"><b>COOKPAD</b></a>
+  <a class="active" href="file:///home/user/html/homepage.html">COOKPAD</a>
   <div class="dropdown">
-    <button class="dropbtn"><b>CATEGORIES</b> 
+    <button class="dropbtn">Categories 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -87,10 +88,13 @@ body {
       <a href="curries">Curries</a>
     </div>
   </div> 
-  <align = "top-right"><a href="file:///home/user/html/homepage.html"></b>LOGOUT</b></a>
+  <align = "top-right"><a href="file:///home/user/html/homepage.html">Logout</a>
 </div><br><br><br>
-<center>
- <img src = "logo.jpg"></center>
+   <center><img src = "happycooking.jpg" style = "width:50%"><br><br></center>
+   <img src = "pulav.jpg" style="width:23%">&nbsp&nbsp&nbsp
+   <img src = "uttapam.jpg" style = "width:23%">&nbsp&nbsp&nbsp
+   <img src = "pomfretfish.jpg" style = "width:23%">&nbsp&nbsp&nbsp
+    <img src = "shrikhand.jpg" style = "width:23%">
 </body>
 </html>
 
